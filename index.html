@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Couple Cinema</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<header>
+		<div class="header-top">
+			<div class="wrapper">
+				<h1 class="header-logo"><a href="./"><img src="./img/logo.png" alt=""></a></h1>
+				<div class="header-search">
+					<input type="text" placeholder="Tìm tên phim, diễn viên..." id="search">
+					<button id="search-btn"><img src="./img/icon_search.png" alt=""></button>
+				</div>
+				<button id="booking" onclick="window.location.href='#'"><img src="./img/icon_book.png" alt=""><span>ĐẶT PHÒNG
+						VÉ</span></button>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="wrapper">
+			<ul>
+				<li><a href="#" class="parent" title="Trang chủ">Trang chủ</a></li>
+				<li><a href="#" class="parent" title="Giới thiệu">Giới thiệu</a></li>
+				<li><a href="#" class="parent" title="Thể loại phim">Thể loại phim</a>
+					<!-- menu con sổ xuống cấp 1 -->
+					<ul>
+						<li><a href="#" title="Hành động">Hành động</a></li>
+						<li><a href="#" title="Khoa học viễn tưởng">Khoa học viễn tưởng</a></li>
+						<li><a href="#" title="Hoạt hình">Hoạt hình</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="parent" title="Giá dịch vụ">Giá dịch vụ</a></li>
+				<li><a href="#" class="parent" title="Tin tức & sự kiện">Tin tức & sự kiện</a></li>
+				<li><a href="#" class="parent" title="Liện hệ">Liên hệ</a></li>
+
+			</ul>
+		</div>
+
+	</nav>
+	<section id="banner">
+		<p class="banner-item"><img src="./img/banner.png" alt=""></p>
+	</section>
+	<section id="current">
+		<div class="wrapper">
+			<h2 class="title"><span class="line"></span> <span class="content">PHIM ĐANG CHIẾU</span> <span
+					class="line"></span></h2>
+			<div id="list-film">
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb1.png" alt=""></div>
+					<p class="film-title">EM VÀ TRỊNH (2022)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb2.png" alt=""></div>
+					<p class="film-title">Emergency Declaration (2021)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb1.png" alt=""></div>
+					<p class="film-title">EM VÀ TRỊNH (2022)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb2.png" alt=""></div>
+					<p class="film-title">Emergency Declaration (2021)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb1.png" alt=""></div>
+					<p class="film-title">EM VÀ TRỊNH (2022)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb2.png" alt=""></div>
+					<p class="film-title">Emergency Declaration (2021)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb1.png" alt=""></div>
+					<p class="film-title">EM VÀ TRỊNH (2022)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb2.png" alt=""></div>
+					<p class="film-title">Emergency Declaration (2021)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb1.png" alt=""></div>
+					<p class="film-title">EM VÀ TRỊNH (2022)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="film-item">
+					<div class="film-thumb"><img src="./img/film_thumb2.png" alt=""></div>
+					<p class="film-title">Emergency Declaration (2021)</p>
+					<p class="film-time">Thời lượng: <span>145</span> phút</p>
+					<div class="film-detail">
+						<p class="detail-title">EM VÀ TRỊNH (2022)</p>
+						<ul class="detail-list">
+							<li>Nước Sản Xuất: <span>Hàn Quốc</span></li>
+							<li>Thời Lượng: <span>141</span> phút</li>
+							<li>Loại Phim: <span>Hành Động - Phiêu Lưu</span></li>
+							<li>Phụ Đề: <span>Việt Nam</span></li>
+							<li>Chất Lượng Phim: <span>FHD</span></li>
+						</ul>
+						<div class="detail-button">
+							<button class="info"><img src="./img/icon_film_info.png" alt=""><span>Xem chi tiết</span></button>
+							<button class="review"><img src="./img/icon_detail_film.png" alt=""><span>Tóm tắt phim</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button id="view-all">XEM TẤT CẢ</button>
+		</div>
+	</section>
+	<section id="sale">
+		<h2 class="title"><span class="line"></span> <span class="content">tin khuyến mãi</span> <span class="line"></span>
+		</h2>
+		<div id="carousel">
+			<div class="swiper-container" id="carousel-sale">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="./img/slider1.png" alt="">
+						<div class="slide-detail">
+							<a href="javascript:;">KHUYẾN MÃI XEM PHIM <br>KHI ĐI 2 NGƯỜI</a>
+						</div>
+					</div>
+					<div class="swiper-slide"><img src="./img/slider2.png" alt="">
+						<div class="slide-detail">
+							<a href="javascript:;">KHUYẾN MÃI XEM PHIM <br>KHI ĐI 2 NGƯỜI</a>
+						</div>
+					</div>
+					<div class="swiper-slide"><img src="./img/slider3.png" alt="">
+						<div class="slide-detail">
+							<a href="javascript:;">KHUYẾN MÃI XEM PHIM <br>KHI ĐI 2 NGƯỜI</a>
+						</div>
+					</div>
+					<div class="swiper-slide"><img src="./img/slider1.png" alt="">
+						<div class="slide-detail">
+							<a href="javascript:;">KHUYẾN MÃI XEM PHIM <br>KHI ĐI 2 NGƯỜI</a>
+						</div>
+					</div>
+					<div class="swiper-slide"><img src="./img/slider2.png" alt="">
+						<div class="slide-detail">
+							<a href="javascript:;">KHUYẾN MÃI XEM PHIM <br>KHI ĐI 2 NGƯỜI</a>
+						</div>
+					</div>
+					<div class="swiper-slide"><img src="./img/slider3.png" alt="">
+						<div class="slide-detail">
+							<a href="javascript:;">KHUYẾN MÃI XEM PHIM <br>KHI ĐI 2 NGƯỜI</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-btn">
+				<button class="btn-prev"><img src="./img/carousel_btn.png" alt=""><img class="active"
+						src="./img/carousel_btn_active.png" alt=""></button>
+				<button class="btn-next"><img src="./img/carousel_btn.png" alt=""><img class="active"
+						src="./img/carousel_btn_active.png" alt=""></button>
+			</div>
+		</div>
+	</section>
+	<section id="info">
+		<div class="wrapper">
+			<div class="info-container">
+				<div class="info-box">
+					<p class="info-title">thông tin liên hệ</p>
+					<div class="address-wrapper">
+						<div class="address-item">
+							<p class="title">couple cinema 1</p>
+							<p class="detail"><img src="./img/icon_address.png" alt=""><a
+									href="http://maps.google.com/?q=114 Lê Lợi, P4, Q.Gò Vấp, TP.HCM" target="_blank">114 Lê Lợi, P4, Q.Gò
+									Vấp, TP.HCM</a>
+							</p>
+							<p class="phone"><img src="./img/icon_phone.png" alt=""><a href="tel:028.626.85333">028.626.85333</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="info-box">
+					<p class="info-title">tin tức mới</p>
+					<div id="info-carousel">
+						<div class="swiper-container" id="carousel-event">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="event-item">
+										<p class="image"><a href="#"><img src="./img/event1.png" alt=""></a></p>
+										<div class="event-detail">
+											<p class="event-title"><a href="#">VNPAY-QR Tặng Deal Cực Cháy</a></p>
+											<p class="event-date"><img src="./img/icon_calendar.png" alt=""> <span>30/10/2022</span></p>
+										</div>
+									</div>
+									<div class="event-item">
+										<p class="image"><a href="#"><img src="./img/event2.png" alt=""></a></p>
+										<div class="event-detail">
+											<p class="event-title"><a href="#">U22 Vui Vẻ - Bắp Nước Siêu Hạt Dẻ</a></p>
+											<p class="event-date"><img src="./img/icon_calendar.png" alt=""> <span>30/10/2022</span></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-btn">
+							<button class="btn-prev-event"><img src="./img/event_arrow.png" alt=""><img class="active"
+									src="./img/event_arrow_active.png" alt=""></button>
+							<button class="btn-next-event"><img src="./img/event_arrow.png" alt=""><img class="active"
+									src="./img/event_arrow_active.png" alt=""></button>
+						</div>
+					</div>
+					<p class="info-title">fanpage facebook</p>
+					<div id="fanpage">
+						<iframe
+							src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fphimhaygiare&tabs=timeline&width=370&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+							width="370" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+							allowfullscreen="true"
+							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<p class="copy-right">Copyright © 2022 Couplecinema.vn. All rights reserved. Designed by CoupleCinema.vn</p>
+			<div class="online">
+				<p><img src="./img/icon_people.png" alt=""><span>Số lượng truy cập: 2,030,199</span></p>
+				<p><img src="./img/icon_people1.png" alt=""><span>Đang online: 20</span></p>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/jquery-3.6.1.min.js"></script>
+	<script src="./js/swiper-bundle.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
