@@ -74,8 +74,8 @@ header .header-search input {
 }
 
 header .header-search #search-btn {
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
   border-radius: 6px;
   background-color: #333333;
   position: absolute;
@@ -191,6 +191,10 @@ header .header-search #search-btn:hover {
     -webkit-transition: all 0.5;
     transition: all 0.5;
   }
+}
+
+#nav_btn {
+  display: none;
 }
 
 nav {

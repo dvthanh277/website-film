@@ -91,4 +91,17 @@ $(document).ready(function () {
         <p class="phone"><img src="./img/icon_phone.png" alt=""><a href="tel:${element.phone}">${element.phone}</a></p>
     </div>`
     }).join("")}`;
+
+    $("#nav_btn").on('click', function () {
+        $(this).toggleClass('active');
+        if (!$(this).hasClass('active')) {
+            $("nav").hide()
+            $("body").css("overflow", "unset");
+        }
+        else {
+            $("nav").show()
+            $("body").css("overflow", "hidden");
+        }
+    });
+
 });
