@@ -107,8 +107,31 @@ header {
     transition: all 0.5;
   }
 }
+
 #nav_btn {
   display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 2px solid #111;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  img {
+    width: 80%;
+    transition: all 0.4s;
+  }
+  &.active {
+    background-color: #fd841f;
+    img {
+      transform: rotate(90deg);
+      transition: all 0.4s;
+    }
+  }
 }
 nav {
   background: #111111;

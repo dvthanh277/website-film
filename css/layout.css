@@ -195,6 +195,40 @@ header .header-search #search-btn:hover {
 
 #nav_btn {
   display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 6px;
+  border: 2px solid #111;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+#nav_btn img {
+  width: 80%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#nav_btn.active {
+  background-color: #fd841f;
+}
+
+#nav_btn.active img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 nav {
