@@ -10,16 +10,16 @@ $(document).ready(function () {
             320: {
                 slidesPerView: 1,
             },
-            425: {
+            480: {
                 slidesPerView: 2,
             },
             768: {
                 slidesPerView: 3,
             },
             1024: {
-                slidesPerView: 3,
+                slidesPerView: 4,
             },
-            1280: {
+            1200: {
                 slidesPerView: 4,
             },
             1400: {
@@ -35,7 +35,7 @@ $(document).ready(function () {
         }
     });
     var mySwiperEvent = new Swiper("#carousel-event", {
-        spaceBetween: 0,
+        spaceBetween: 5,
         slidesPerView: 1,
         // centeredSlides: true,
         loop: true,

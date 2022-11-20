@@ -1,15 +1,16 @@
 {
-    "liveSassCompile.settings.excludeList": [
-
-        "**/node_modules/**",
-        ".vscode/**"
+    "sass.andStared": [
+    
+        "active",
+        "focus",
+        "hover",
+        "nth-child"
     ],
-    "liveSassCompile.settings.includeItems": ["/**"],
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css"
-    }
-  ],
+    "liveSassCompile.settings.formats": [
+        {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/css"
+        }
+      ],
 }

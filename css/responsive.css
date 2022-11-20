@@ -1,21 +1,137 @@
-@media only screen and (max-width: 1400px) {
-  #banner {
-    text-align: center;
+@media (min-width: 480px) and (max-width: 767px) {
+  .wrapper {
+    width: 480px;
   }
-  #banner img {
+  #current #list-film .list-film {
+    gap: 10px;
+  }
+  #info .info-container .info-box:first-child {
     width: 100%;
-    height: 500px;
+  }
+  #info .info-container .info-box:last-child {
+    width: 100%;
+  }
+  nav .wrapper > ul li a {
+    padding: 0 9px;
+    line-height: 60px;
+    font-size: 0.9rem;
+  }
+  footer {
+    padding: 12px 0;
+  }
+  footer .wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .wrapper p,
+  footer .wrapper span {
+    font-size: 0.75rem;
+  }
+  footer .wrapper .copy-right span {
+    display: block;
+    margin-top: 2px;
+  }
+  footer .wrapper .online {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  footer .wrapper .online p {
+    width: 100%;
+  }
+  footer .wrapper .online p span span {
+    display: block;
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wrapper {
+    width: 740px;
+  }
+  header .header-logo {
+    width: 40%;
+  }
+  header .header-top #booking span {
+    font-size: 14px;
+  }
+  header .header-search input {
+    font-size: 0.9rem;
+  }
+  nav .wrapper > ul li a {
+    padding: 0 9px;
+    line-height: 60px;
+    font-size: 0.9rem;
+  }
+  #current #list-film .list-film {
+    gap: 25px;
+  }
+  #info .info-container .info-box:first-child {
+    width: 58%;
+  }
+  #info .info-container .info-box:last-child {
+    width: 40%;
+  }
+  #info .address-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #info .address-wrapper .address-item {
+    width: 49%;
+  }
+  #info .address-wrapper .address-item .detail a {
+    font-size: 0.85rem;
+  }
+  #info .address-wrapper .address-item a {
+    font-size: 0.85rem;
+  }
+  footer {
+    padding: 12px 0;
+  }
+  footer .wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .wrapper p,
+  footer .wrapper span {
+    font-size: 0.8rem;
+  }
+  footer .wrapper .copy-right,
+  footer .wrapper .online {
+    width: 100%;
+  }
+  footer .wrapper .online {
+    margin-top: 10px;
+    gap: 10px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
   .wrapper {
     width: 1000px;
   }
+  #current #list-film .list-film {
+    gap: 30px;
+  }
+  footer .wrapper p,
+  footer .wrapper span {
+    font-size: 0.85rem;
+  }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (min-width: 1280px) and (max-width: 1399px) {
   .wrapper {
-    width: 800px;
+    width: 1200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrapper {
+    width: 1200px;
   }
 }

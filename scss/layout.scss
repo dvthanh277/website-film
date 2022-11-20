@@ -9,6 +9,12 @@
 
 header {
   .header {
+    &-logo {
+      width: 29%;
+      img {
+        width: 100%;
+      }
+    }
     &-top {
       background-color: var(--gray);
       padding: 35px 0;
@@ -21,7 +27,7 @@ header {
         color: #fff;
         display: flex;
         align-items: center;
-        margin-left: 80px;
+        margin-left: 8%;
         width: 190px;
         height: 50px;
         padding-left: 7px;
@@ -40,14 +46,15 @@ header {
     }
     &-search {
       position: relative;
+      width: 48%;
       input {
         background-color: #fff;
         height: 51px;
         border: 2px solid #e5e5e5;
         border-radius: 6px;
         padding: 16px;
-        width: 502px;
-        margin-left: 60px;
+        width: 88%;
+        margin-left: 10%;
       }
       #search-btn {
         width: 50px;
@@ -168,7 +175,7 @@ nav {
     li {
       ul {
         display: none;
-        min-width: 350px;
+        min-width: 260px;
         position: absolute;
       }
       > ul {
@@ -246,9 +253,14 @@ nav {
   }
   #list-film {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 17px;
+    justify-content: center;
+    .list-film {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 17px;
+    }
+
     .film-item {
       width: 220px;
       height: 420px;
@@ -529,16 +541,17 @@ nav {
 #info {
   padding: 72px 0 66px;
   background: url(../img/info_bg.png) no-repeat top center;
-  background-size: 100%;
+  background-size: 100% 100%;
   .info-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     .info-box {
       &:first-child {
-        width: 800px;
+        width: 68%;
       }
       &:last-child {
-        width: 370px;
+        width: 32%;
       }
     }
   }
@@ -563,6 +576,7 @@ nav {
         color: #cccccc;
         padding-left: 10px;
         text-decoration: none;
+        word-break: break-word;
       }
       .title {
         text-transform: uppercase;
@@ -686,10 +700,10 @@ footer {
       color: #fff;
     }
     .copy-right {
-      width: 780px;
+      width: 66.5%;
     }
     .online {
-      width: 390px;
+      width: 33.5%;
       display: flex;
       justify-content: space-between;
       align-items: center;

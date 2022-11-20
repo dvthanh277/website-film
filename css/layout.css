@@ -8,6 +8,14 @@
   --gray: #f7f7f7;
 }
 
+header .header-logo {
+  width: 29%;
+}
+
+header .header-logo img {
+  width: 100%;
+}
+
 header .header-top {
   background-color: var(--gray);
   padding: 35px 0;
@@ -31,7 +39,7 @@ header .header-top #booking {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 80px;
+  margin-left: 8%;
   width: 190px;
   height: 50px;
   padding-left: 7px;
@@ -52,6 +60,7 @@ header .header-top #booking span {
 
 header .header-search {
   position: relative;
+  width: 48%;
 }
 
 header .header-search input {
@@ -60,8 +69,8 @@ header .header-search input {
   border: 2px solid #e5e5e5;
   border-radius: 6px;
   padding: 16px;
-  width: 502px;
-  margin-left: 60px;
+  width: 88%;
+  margin-left: 10%;
 }
 
 header .header-search #search-btn {
@@ -253,7 +262,7 @@ nav .wrapper > ul li > ul li > ul {
 
 nav .wrapper li ul {
   display: none;
-  min-width: 350px;
+  min-width: 260px;
   position: absolute;
 }
 
@@ -339,6 +348,15 @@ nav .wrapper li:hover > ul {
 }
 
 #current #list-film {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#current #list-film .list-film {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -720,7 +738,7 @@ nav .wrapper li:hover > ul {
 #info {
   padding: 72px 0 66px;
   background: url(../img/info_bg.png) no-repeat top center;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 #info .info-container {
@@ -729,14 +747,17 @@ nav .wrapper li:hover > ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #info .info-container .info-box:first-child {
-  width: 800px;
+  width: 68%;
 }
 
 #info .info-container .info-box:last-child {
-  width: 370px;
+  width: 32%;
 }
 
 #info .info-title {
@@ -769,6 +790,7 @@ nav .wrapper li:hover > ul {
   color: #cccccc;
   padding-left: 10px;
   text-decoration: none;
+  word-break: break-word;
 }
 
 #info .address-wrapper .address-item .title {
@@ -949,11 +971,11 @@ footer .wrapper span {
 }
 
 footer .wrapper .copy-right {
-  width: 780px;
+  width: 66.5%;
 }
 
 footer .wrapper .online {
-  width: 390px;
+  width: 33.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
