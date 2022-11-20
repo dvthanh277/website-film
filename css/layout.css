@@ -194,7 +194,6 @@ header .header-search #search-btn:hover {
 }
 
 #nav_btn {
-  display: none;
   width: 40px;
   height: 40px;
   background-color: #fff;
@@ -212,6 +211,7 @@ header .header-search #search-btn:hover {
   position: absolute;
   bottom: 20px;
   left: 10px;
+  display: none;
 }
 
 #nav_btn img {
@@ -985,6 +985,69 @@ nav .wrapper li:hover > ul {
 #info .carousel-btn .btn-next-event .active {
   -webkit-transform: rotate(0);
           transform: rotate(0);
+}
+
+#fixed-button {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+#fixed-button ul {
+  margin-bottom: 100px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 5px 0px #cecece;
+          box-shadow: 0 0 5px 0px #cecece;
+}
+
+#fixed-button ul li {
+  margin-bottom: 5px;
+}
+
+#fixed-button ul li:last-child {
+  margin-bottom: 0;
+}
+
+#fixed-button ul li a {
+  display: block;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#fixed-button ul li a:hover {
+  opacity: 0.8;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#fixed-button #goTop {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#fixed-button #goTop:hover {
+  opacity: 0.8;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 footer {

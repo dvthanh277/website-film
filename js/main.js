@@ -103,5 +103,21 @@ $(document).ready(function () {
             $("body").css("overflow", "hidden");
         }
     });
+    $("#goTop").on('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        })
+    });
+    $(window).on('scroll', function () {
+        console.log($(window).scrollTop());
+        let scrollTop = $(window).scrollTop();
+        if (scrollTop > 800) {
+            $("#fixed-button").fadeIn();
+        }
+        else {
+            $("#fixed-button").fadeOut();
+        }
+    });
 
 });

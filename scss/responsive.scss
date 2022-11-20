@@ -19,7 +19,7 @@
 @media (min-width: 320px) and (max-width: 499px) {
   header {
     #nav_btn {
-      display: block;
+      display: flex;
     }
     .header-top {
       position: relative;
@@ -194,7 +194,7 @@
 @media (min-width: 500px) and (max-width: 767px) {
   header {
     #nav_btn {
-      display: block;
+      display: flex;
     }
     .header-top {
       position: relative;
